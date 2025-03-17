@@ -34,61 +34,17 @@ document.addEventListener('DOMContentLoaded', function () {
     // Ejecutar función para preparar tablas responsivas
     prepareResponsiveTables();
 
-    // Mejorar funcionalidad del menú móvil
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    const navMenu = document.querySelector('.nav-menu');
-    const body = document.body;
-
-    if (mobileMenuToggle) {
-        // Crear overlay para el menú móvil
-        const menuOverlay = document.createElement('div');
-        menuOverlay.className = 'menu-overlay';
-        body.appendChild(menuOverlay);
-
-        // Crear botón de cierre
-        const menuClose = document.createElement('div');
-        menuClose.className = 'menu-close';
-        menuClose.innerHTML = '<i class="fas fa-times"></i>';
-        navMenu.appendChild(menuClose);
-        
-        // Añadir función para abrir menú
-        mobileMenuToggle.addEventListener('click', function () {
-            navMenu.classList.add('active');
-            menuOverlay.classList.add('active');
-            body.style.overflow = 'hidden'; // Prevenir scroll
-        });
-
-        // Añadir función para cerrar menú
-        const closeMenu = function () {
-            navMenu.classList.remove('active');
-            menuOverlay.classList.remove('active');
-            body.style.overflow = '';
-        };
-
-        menuClose.addEventListener('click', closeMenu);
-        menuOverlay.addEventListener('click', closeMenu);
-
-        // Cerrar menú al hacer clic en enlace
-        const navLinks = navMenu.querySelectorAll('a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', closeMenu);
-        });
-
-        // Cerrar menú al cambiar orientación
-        window.addEventListener('orientationchange', closeMenu);
-    }
-
     // Hacer tarjetas de soluciones expandibles en móvil
     if (window.innerWidth <= 768) {
         const solutionCards = document.querySelectorAll('.solution-card');
-
+        
         solutionCards.forEach(card => {
-            card.addEventListener('click', function (e) {
+            card.addEventListener('click', function(e) {
                 // Evitar activación al hacer clic en botones
                 if (e.target.tagName === 'A' || e.target.parentElement.tagName === 'A') {
                     return;
                 }
-
+                
                 this.classList.toggle('expanded');
             });
         });
@@ -302,3 +258,25 @@ function initTechNodes() {
         renderer.setSize(newWidth, newHeight);
     });
 }
+// Añade esto en tu archivo main.js
+window.addEventListener('resize', function() {
+    const cubeContainer = document.querySelector('.cube-container');
+    if (cubeContainer) {
+        if (window.innerWidth < 768) {
+            // Reemplaza el cubo con una imagen estática o simplifica la animación
+            if (!document.querySelector('.static-cube-image')) {
+                const staticImage = document.createElement('div');
+                staticImage.className = 'static-cube-image';
+                cubeContainer.parentNode.insertBefore(staticImage, cubeContainer);
+                cubeContainer.style.display = 'none';
+            }
+        } else {
+            // Restaura el cubo en pantallas grandes
+            const staticImage = document.querySelector('.static-cube-image');
+            if (staticImage) {
+                staticImage.remove();
+            }
+            cubeContainer.style.display = 'block';
+        }
+    }
+});

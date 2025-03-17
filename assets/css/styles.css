@@ -3290,3 +3290,62 @@ img {
     font-size: 24px;
     cursor: pointer;
 }
+/* Estilos para el menú móvil */
+.mobile-menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: var(--dark-gray);
+        z-index: 1000;
+        padding: 80px 20px 20px;
+        overflow-y: auto;
+        transition: right 0.3s ease;
+    }
+    
+    .nav-menu.active {
+        right: 0;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    .nav-menu ul {
+        flex-direction: column;
+    }
+    
+    .nav-menu li {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .nav-menu a {
+        display: block;
+        padding: 15px 0;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Prevenir scroll cuando el menú está abierto */
+    body.menu-open {
+        overflow: hidden;
+    }
+}
+.mobile-menu-toggle {
+    display: none !important;
+}
+.scroll-indicator {
+    display: none !important;
+}

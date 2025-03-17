@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web | Zenitch</title>
+    <meta name="description" content="Servicios profesionales de desarrollo web y diseño de sitios a medida para empresas que buscan destacar en el entorno digital.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS - Animate On Scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo/Logo.svg" alt="Zenitch Icon" class="logo-icon">
+                        <span class="logo-text">Zenitch</span>
+                    </a>
+                </div>
+                
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#products" class="active">Soluciones</a></li>
+                        <li><a href="index.html#technology">Tecnología</a></li>
+                        <!--<li><a href="index.html#clients">Clientes</a></li>-->
+                        <li><a href="index.html#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-cta">
+                    <a href="index.html#contact" class="btn btn-primary">Solicitar Demo</a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="product-hero-section web-hero">
+        <div class="container">
+            <div class="product-hero-content" data-aos="fade-up">
+                <div class="breadcrumbs">
+                    <a href="index.html">Inicio</a> <span class="separator">/</span> <a href="index.html#products">Soluciones</a> <span class="separator">/</span> <span>Desarrollo Web</span>
+                </div>
+                <h1>Desarrollo Web <span class="text-accent">Estratégico</span></h1>
+                <p class="hero-description">Creamos experiencias digitales excepcionales que combinan diseño impactante, tecnología de vanguardia y estrategia orientada a resultados para transformar su presencia online.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Overview Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-label">Servicios</div>
+                <h2>Soluciones Web a Medida</h2>
+                <p>Ofrecemos una gama completa de servicios de desarrollo web adaptados a las necesidades específicas de cada proyecto y negocio.</p>
+            </div>
+            
+            <div class="services-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Sitios Web Corporativos</h3>
+                    <p>Páginas web profesionales que reflejan la identidad de su marca y comunican efectivamente su propuesta de valor.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Tiendas online optimizadas para conversión con gestión de productos, pagos y envíos integrados.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicaciones Web</h3>
+                    <p>Soluciones interactivas basadas en web con funcionalidades personalizadas para necesidades específicas.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Diseño UX/UI</h3>
+                    <p>Interfaces intuitivas y atractivas que mejoran la experiencia del usuario y refuerzan su marca.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO & Marketing Digital</h3>
+                    <p>Optimización para buscadores y estrategias digitales para aumentar su visibilidad online.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Mantenimiento Web</h3>
+                    <p>Soporte continuo, actualizaciones y mejoras para mantener su sitio seguro y optimizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Process Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-label">Metodología</div>
+                <h2>Nuestro Proceso de Desarrollo</h2>
+                <p>Seguimos una metodología estructurada que garantiza resultados excepcionales en cada proyecto.</p>
+            </div>
+            
+            <div class="process-timeline" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>Descubrimiento y Análisis</h3>
+                        <p>Comprendemos a fondo sus objetivos, público objetivo y requerimientos técnicos para establecer la base del proyecto.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check"></i> Investigación de mercado y competencia</li>
+                            <li><i class="fas fa-check"></i> Análisis de audiencia y comportamiento de usuario</li>
+                            <li><i class="fas fa-check"></i> Definición de objetivos de negocio</li>
+                            <li><i class="fas fa-check"></i> Identificación de requisitos técnicos</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>Estrategia y Planificación</h3>
+                        <p>Desarrollamos la estrategia digital y arquitectura del sitio para optimizar la experiencia del usuario y resultados de negocio.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check"></i> Arquitectura de información</li>
+                            <li><i class="fas fa-check"></i> Mapas de sitio y flujos de usuario</li>
+                            <li><i class="fas fa-check"></i> Estrategia de contenido</li>
+                            <li><i class="fas fa-check"></i> Planificación técnica</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>Diseño UX/UI</h3>
+                        <p>Creamos wireframes y diseños visuales que combinan estética con funcionalidad para una experiencia de usuario excepcional.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check"></i> Wireframing y prototipos</li>
+                            <li><i class="fas fa-check"></i> Diseño visual y branding</li>
+                            <li><i class="fas fa-check"></i> Diseño responsive para todos los dispositivos</li>
+                            <li><i class="fas fa-check"></i> Pruebas de usabilidad</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollo</h3>
+                        <p>Implementamos su sitio utilizando las tecnologías más adecuadas para sus necesidades, con código limpio y eficiente.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check"></i> Desarrollo frontend responsivo</li>
+                            <li><i class="fas fa-check"></i> Programación backend robusta</li>
+                            <li><i class="fas fa-check"></i> Integración de CMS</li>
+                            <li><i class="fas fa-check"></i> Pruebas de funcionalidad</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <h3>Pruebas y Optimización</h3>
+                        <p>Realizamos pruebas exhaustivas de calidad y optimizamos el rendimiento antes del lanzamiento.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check"></i> Pruebas de compatibilidad multi-navegador</li>
+                            <li><i class="fas fa-check"></i> Optimización de velocidad</li>
+                            <li><i class="fas fa-check"></i> Pruebas de seguridad</li>
+                            <li><i class="fas fa-check"></i> Optimización SEO</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">06</div>
+                    <div class="timeline-content">
+                        <h3>Lanzamiento y Soporte</h3>
+                        <p>Desplegamos su sitio web y proporcionamos soporte continuo para garantizar un rendimiento óptimo.</p>
+                        <ul class="timeline-features">
+                            <li><i class="fas fa-check"></i> Despliegue y configuración de servidores</li>
+                            <li><i class="fas fa-check"></i> Capacitación y documentación</li>
+                            <li><i class="fas fa-check"></i> Monitoreo de rendimiento</li>
+                            <li><i class="fas fa-check"></i> Soporte técnico y mantenimiento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Web Types Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-label">Opciones</div>
+                <h2>Tipos de Desarrollo Web</h2>
+                <p>Ofrecemos diferentes enfoques de desarrollo adaptados a sus requisitos específicos de negocio y tecnología.</p>
+            </div>
+            
+            <div class="web-types" data-aos="fade-up" data-aos-delay="200">
+                <!-- Type 1: Static Websites -->
+                <div class="web-type-card">
+                    <div class="web-type-image">
+                        <img src="assets/img/products/static-website.jpg" alt="Sitios Web Estáticos">
+                    </div>
+                    <div class="web-type-content">
+                        <h3>Sitios Web Estáticos</h3>
+                        <p>Perfectos para presencias online simples con contenido que no requiere actualizaciones frecuentes. Rápidos, seguros y económicos.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Velocidad de carga óptima</li>
+                            <li><i class="fas fa-check"></i> Alta seguridad</li>
+                            <li><i class="fas fa-check"></i> Costo de hosting reducido</li>
+                            <li><i class="fas fa-check"></i> Mantenimiento mínimo</li>
+                            <li><i class="fas fa-check"></i> Ideal para sitios informativos</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="index.html#contact" class="btn btn-outline">Solicitar Información</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Type 2: Dynamic Websites -->
+                <div class="web-type-card reversed">
+                    <div class="web-type-image">
+                        <img src="assets/img/products/dynamic-website.jpg" alt="Sitios Web Dinámicos">
+                    </div>
+                    <div class="web-type-content">
+                        <h3>Sitios Web Dinámicos</h3>
+                        <p>Sitios interactivos con contenido actualizable mediante sistemas de gestión de contenido (CMS) que facilitan su administración.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Fácil actualización de contenido</li>
+                            <li><i class="fas fa-check"></i> Funcionalidades interactivas</li>
+                            <li><i class="fas fa-check"></i> Gestión de usuarios</li>
+                            <li><i class="fas fa-check"></i> CMS personalizados o populares (WordPress, Drupal)</li>
+                            <li><i class="fas fa-check"></i> Ideal para blogs y sitios corporativos</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="index.html#contact" class="btn btn-outline">Solicitar Información</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Type 3: E-commerce -->
+                <div class="web-type-card">
+                    <div class="web-type-image">
+                        <img src="assets/img/products/ecommerce-website.jpg" alt="Plataformas E-commerce">
+                    </div>
+                    <div class="web-type-content">
+                        <h3>Plataformas E-commerce</h3>
+                        <p>Tiendas online completas con catálogo de productos, carrito de compras, pasarelas de pago seguras y gestión de inventario.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Catálogo de productos avanzado</li>
+                            <li><i class="fas fa-check"></i> Múltiples opciones de pago</li>
+                            <li><i class="fas fa-check"></i> Gestión de inventario</li>
+                            <li><i class="fas fa-check"></i> Optimización para conversión</li>
+                            <li><i class="fas fa-check"></i> Informes de ventas y análisis</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="index.html#contact" class="btn btn-outline">Solicitar Información</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Type 4: Progressive Web Apps -->
+                <div class="web-type-card reversed">
+                    <div class="web-type-image">
+                        <img src="assets/img/products/progressive-web-app.jpg" alt="Progressive Web Apps">
+                    </div>
+                    <div class="web-type-content">
+                        <h3>Progressive Web Apps (PWA)</h3>
+                        <p>Aplicaciones web que ofrecen una experiencia similar a las apps nativas, con funcionalidad offline y alta velocidad.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Funcionamiento offline</li>
+                            <li><i class="fas fa-check"></i> Tiempos de carga ultrarrápidos</li>
+                            <li><i class="fas fa-check"></i> Instalable en dispositivos</li>
+                            <li><i class="fas fa-check"></i> Notificaciones push</li>
+                            <li><i class="fas fa-check"></i> Experiencia similar a app nativa</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="index.html#contact" class="btn btn-outline">Solicitar Información</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Type 5: Single Page Applications -->
+                <div class="web-type-card">
+                    <div class="web-type-image">
+                        <img src="assets/img/products/spa-website.jpg" alt="Single Page Applications">
+                    </div>
+                    <div class="web-type-content">
+                        <h3>Single Page Applications (SPA)</h3>
+                        <p>Aplicaciones web modernas que cargan una sola página HTML y actualizan dinámicamente el contenido según la interacción del usuario.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Experiencia de usuario fluida</li>
+                            <li><i class="fas fa-check"></i> Tiempos de respuesta inmediatos</li>
+                            <li><i class="fas fa-check"></i> Reducción de carga en el servidor</li>
+                            <li><i class="fas fa-check"></i> Funcionamiento similar a aplicaciones de escritorio</li>
+                            <li><i class="fas fa-check"></i> Ideal para aplicaciones web complejas</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="index.html#contact" class="btn btn-outline">Solicitar Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technologies Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-label">Stack Tecnológico</div>
+                <h2>Tecnologías que Utilizamos</h2>
+                <p>Trabajamos con las tecnologías más modernas y eficientes para crear soluciones web potentes y escalables.</p>
+            </div>
+            
+            <div class="tech-categories" data-aos="fade-up" data-aos-delay="200">
+                <!-- Frontend Technologies -->
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-logos">
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/" alt="HTML5">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/css3.svg" alt="CSS3">
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/javascript.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/react.svg" alt="React">
+                            <span>React</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/vue.svg" alt="Vue.js">
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/angular.svg" alt="Angular">
+                            <span>Angular</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Technologies -->
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-logos">
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/nodejs.svg" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/php.svg" alt="PHP">
+                            <span>PHP</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/python.svg" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/java.svg" alt="Java">
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/ruby.svg" alt="Ruby">
+                            <span>Ruby</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/dotnet.svg" alt=".NET">
+                            <span>.NET</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CMS & E-commerce -->
+                <div class="tech-category">
+                    <h3>CMS & E-commerce</h3>
+                    <div class="tech-logos">
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/wordpress.svg" alt="WordPress">
+                            <span>WordPress</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/shopify.svg" alt="Shopify">
+                            <span>Shopify</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/magento.svg" alt="Magento">
+                            <span>Magento</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/woocommerce.svg" alt="WooCommerce">
+                            <span>WooCommerce</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/drupal.svg" alt="Drupal">
+                            <span>Drupal</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/joomla.svg" alt="Joomla">
+                            <span>Joomla</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Databases -->
+                <div class="tech-category">
+                    <h3>Bases de Datos</h3>
+                    <div class="tech-logos">
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/mysql.svg" alt="MySQL">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/postgresql.svg" alt="PostgreSQL">
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/mongodb.svg" alt="MongoDB">
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/firebase.svg" alt="Firebase">
+                            <span>Firebase</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/redis.svg" alt="Redis">
+                            <span>Redis</span>
+                        </div>
+                        <div class="tech-logo">
+                            <img src="assets/img/tech/elasticsearch.svg" alt="Elasticsearch">
+                            <span>Elasticsearch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-label">Proyectos</div>
+                <h2>Nuestro Portafolio</h2>
+                <p>Explore algunos de nuestros proyectos recientes y descubra cómo hemos ayudado a empresas a alcanzar sus objetivos digitales.</p>
+            </div>
+            
+            <div class="portfolio-gallery" data-aos="fade-up" data-aos-delay="200">
+                <!-- Project 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/portfolio/project1.jpg" alt="Sitio web corporativo para Global Dynamics">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Global Dynamics</h3>
+                                <p>Sitio web corporativo</p>
+                                <a href="#" class="btn-text">Ver Caso de Estudio <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/portfolio/project2.jpg" alt="E-commerce para Moda Urbana">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Moda Urbana</h3>
+                                <p>Tienda online de moda</p>
+                                <a href="#" class="btn-text">Ver Caso de Estudio <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/portfolio/project3.jpg" alt="Aplicación web para EcoTrack">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>EcoTrack</h3>
+                                <p>Aplicación web de seguimiento ambiental</p>
+                                <a href="#" class="btn-text">Ver Caso de Estudio <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/portfolio/project4.jpg" alt="Progressive Web App para FitLife">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>FitLife</h3>
+                                <p>Progressive Web App de fitness</p>
+                                <a href="#" class="btn-text">Ver Caso de Estudio <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/portfolio/project5.jpg" alt="Portal inmobiliario para PropTech">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>PropTech</h3>
+                                <p>Portal inmobiliario</p>
+                                <a href="#" class="btn-text">Ver Caso de Estudio <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/img/portfolio/project6.jpg" alt="Aplicación SPA para DataViz">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>DataViz</h3>
+                                <p>Aplicación SPA de visualización de datos</p>
+                                <a href="#" class="btn-text">Ver Caso de Estudio <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-50" data-aos="fade-up">
+                <a href="#" class="btn btn-primary">Ver Más Proyectos</a>
+            </div>
+        </div>
+    </section>
+    
+<!-- Pricing Section -->
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <div class="section-label">Inversión</div>
+            <h2>Planes de Desarrollo Web</h2>
+            <p>Ofrecemos planes flexibles para adaptarse a sus necesidades y presupuesto, manteniendo siempre los más altos estándares de calidad.</p>
+        </div>
+        
+        <div class="pricing-plans" data-aos="fade-up" data-aos-delay="200">
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Esencial</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">1,499</span>
+                    </div>
+                    <p class="pricing-description">Ideal para pequeñas empresas que necesitan establecer su presencia online.</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Hasta 5 páginas</li>
+                        <li><i class="fas fa-check"></i> Diseño responsive</li>
+                        <li><i class="fas fa-check"></i> CMS básico</li>
+                        <li><i class="fas fa-check"></i> Formulario de contacto</li>
+                        <li><i class="fas fa-check"></i> Integración de redes sociales</li>
+                        <li><i class="fas fa-check"></i> Optimización SEO básica</li>
+                        <li><i class="fas fa-check"></i> Soporte por 1 mes</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="index.html#contact" class="btn btn-outline btn-full">Seleccionar Plan</a>
+                </div>
+            </div>
+            
+            <!-- Professional Plan -->
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Más Popular</div>
+                <div class="pricing-header">
+                    <h3>Profesional</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">3,499</span>
+                    </div>
+                    <p class="pricing-description">Perfecto para empresas en crecimiento que requieren funcionalidades avanzadas.</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Hasta 15 páginas</li>
+                        <li><i class="fas fa-check"></i> Diseño premium personalizado</li>
+                        <li><i class="fas fa-check"></i> CMS avanzado</li>
+                        <li><i class="fas fa-check"></i> Blog integrado</li>
+                        <li><i class="fas fa-check"></i> Formularios avanzados con integraciones</li>
+                        <li><i class="fas fa-check"></i> Optimización SEO completa</li>
+                        <li><i class="fas fa-check"></i> Integración con Google Analytics</li>
+                        <li><i class="fas fa-check"></i> Capacitación de usuario</li>
+                        <li><i class="fas fa-check"></i> Soporte por 3 meses</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="index.html#contact" class="btn btn-primary btn-full">Seleccionar Plan</a>
+                </div>
+            </div>
+            
+            <!-- Enterprise Plan -->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Enterprise</h3>
+                    <div class="price">
+                        <span class="amount">Personalizado</span>
+                    </div>
+                    <p class="pricing-description">Soluciones a medida para empresas con necesidades específicas y complejas.</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Páginas ilimitadas</li>
+                        <li><i class="fas fa-check"></i> Diseño completamente a medida</li>
+                        <li><i class="fas fa-check"></i> Funcionalidades personalizadas</li>
+                        <li><i class="fas fa-check"></i> Integraciones con sistemas existentes</li>
+                        <li><i class="fas fa-check"></i> E-commerce avanzado (si se requiere)</li>
+                        <li><i class="fas fa-check"></i> Estrategia SEO premium</li>
+                        <li><i class="fas fa-check"></i> Pruebas de rendimiento y seguridad</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento y soporte continuo</li>
+                        <li><i class="fas fa-check"></i> Consultoría estratégica digital</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a href="index.html#contact" class="btn btn-outline btn-full">Solicitar Presupuesto</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pricing-note text-center" data-aos="fade-up">
+            <p>Todos los precios son en pesos mexicanos (MXN) y no incluyen IVA. Para proyectos personalizados o con requerimientos específicos, <a href="index.html#contact">contáctenos</a> para una cotización detallada.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="section section-light">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <div class="section-label">Preguntas</div>
+            <h2>Preguntas Frecuentes</h2>
+            <p>Respuestas a las preguntas más comunes sobre nuestros servicios de desarrollo web.</p>
+        </div>
+        
+        <div class="faq-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cuánto tiempo toma desarrollar un sitio web?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>El tiempo de desarrollo varía según la complejidad del proyecto. Un sitio web básico puede estar listo en 3-4 semanas, mientras que proyectos más complejos como e-commerce o aplicaciones web pueden requerir entre 2-4 meses. Durante la fase de planificación, estableceremos un cronograma detallado específico para su proyecto.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Qué información necesitan para empezar mi proyecto?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Para iniciar, necesitamos comprender sus objetivos de negocio, público objetivo, requisitos funcionales, preferencias de diseño y cualquier material existente como su logo, colores corporativos y contenido. Tenemos un cuestionario detallado que le guiará a través de toda la información que necesitamos para comenzar su proyecto exitosamente.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Ofrecen servicios de mantenimiento web después del lanzamiento?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Sí, ofrecemos diversos planes de mantenimiento web que incluyen actualizaciones de seguridad, respaldos regulares, soporte técnico, monitoreo de rendimiento y actualizaciones de contenido. Estos planes son personalizables según sus necesidades específicas y aseguran que su sitio se mantenga seguro, actualizado y funcionando óptimamente.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cómo garantizan que mi sitio web sea seguro?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>La seguridad es una prioridad en todos nuestros proyectos. Implementamos múltiples capas de protección incluyendo certificados SSL, firewalls de aplicaciones web, protección contra inyección SQL, encriptación de datos, autenticación segura y pruebas regulares de penetración. Además, mantenemos todos los sistemas actualizados con los últimos parches de seguridad.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Puedo actualizar el contenido de mi sitio por mí mismo?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutamente. La mayoría de nuestros sitios se desarrollan utilizando sistemas de gestión de contenido (CMS) intuitivos que le permiten actualizar textos, imágenes, añadir nuevas páginas y gestionar otros aspectos de su sitio sin conocimientos técnicos. Además, proporcionamos capacitación completa y documentación para que pueda administrar su sitio con confianza.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cómo optimizan los sitios web para motores de búsqueda (SEO)?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Nuestro enfoque de SEO incluye múltiples aspectos técnicos y de contenido: estructura de URL amigable, metadatos optimizados, código limpio, velocidad de carga optimizada, estructura de datos estructurados, arquitectura de información eficiente, contenido de calidad enfocado en palabras clave relevantes, y diseño responsive. También implementamos herramientas de análisis para monitorear y mejorar continuamente el rendimiento SEO.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <div class="section-label">Referencias</div>
+            <h2>Lo que Dicen Nuestros Clientes</h2>
+            <p>Descubra por qué empresas de todos los tamaños confían en nosotros para sus proyectos de desarrollo web.</p>
+        </div>
+        
+        <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="testimonial-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <blockquote>Zenitch transformó nuestra visión en una plataforma web excepcional que no solo se ve impresionante, sino que también ha aumentado significativamente nuestras conversiones. Su equipo no solo entendió nuestras necesidades técnicas, sino también nuestros objetivos de negocio.</blockquote>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="assets/img/testimonials/client1.jpg" alt="María Rodríguez">
+                    </div>
+                    <div class="author-info">
+                        <h4>María Rodríguez</h4>
+                        <p>Directora de Marketing, InnovaTech</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="testimonial-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <blockquote>Después de trabajar con varias agencias digitales, finalmente encontramos en Zenitch un socio que realmente se preocupa por entregar resultados. Nuestra tienda online ha experimentado un crecimiento del 200% en ventas desde el rediseño, y el soporte continuo ha sido excepcional.</blockquote>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="assets/img/testimonials/client2.jpg" alt="Carlos Méndez">
+                    </div>
+                    <div class="author-info">
+                        <h4>Carlos Méndez</h4>
+                        <p>CEO, Ecommerce Leaders</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="testimonial-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <blockquote>Como startup con recursos limitados, valoramos enormemente la transparencia y eficiencia de Zenitch. Lograron desarrollar nuestra aplicación web dentro del presupuesto y antes del plazo previsto, sin comprometer la calidad. Su enfoque ágil nos permitió iterar rápidamente.</blockquote>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="assets/img/testimonials/client3.jpg" alt="Laura Vázquez">
+                    </div>
+                    <div class="author-info">
+                        <h4>Laura Vázquez</h4>
+                        <p>Fundadora, NeoHealth</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section cta-section">
+    <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+            <div class="cta-text">
+                <h2>Transforme su presencia digital con Zenitch</h2>
+                <p>Estamos listos para convertir sus ideas en soluciones web excepcionales que impulsen su negocio al siguiente nivel.</p>
+            </div>
+            <div class="cta-action">
+                <a href="index.html#contact" class="btn btn-primary">Iniciar Proyecto <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="assets/img/logo/zenitch-logo-white.svg" alt="Zenitch Logo" class="footer-logo-img">
+                </div>
+                <p>Soluciones tecnológicas que redefinen el estándar.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-nav">
+                <div class="footer-col">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Prensa</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="pos-systems.html">Puntos de Venta</a></li>
+                        <li><a href="web-development.html">Páginas Web</a></li>
+                        <li><a href="#">Automatización</a></li>
+                        <li><a href="#">Seguridad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Tutoriales</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Seguridad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Zenitch. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to top button -->
+<a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+    // Inicializar AOS
+    AOS.init({
+        duration: 800,
+        easing: 'ease-out',
+        once: true,
+        offset: 50
+    });
+    
+    // FAQ Accordion functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            const answer = item.querySelector('.faq-answer');
+            
+            question.addEventListener('click', () => {
+                // Toggle active class
+                item.classList.toggle('active');
+                
+                // Toggle answer visibility
+                if (item.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                } else {
+                    answer.style.maxHeight = 0;
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

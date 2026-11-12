@@ -112,4 +112,19 @@ Más trabajo: [NN](https://github.com/UlisesLov/NN) (redes neuronales en Python)
 
 <div align="center">
 
-<img height="165"
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UlisesLov&layout=compact&hide_border=true&bg_color=0f172a&title_color=94a3b8&text_color=cbd5e1" />
+
+</div>
+
+---
+
+## Contacto
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-334155?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU-USUARIO)
+[![Email](https://img.shields.io/badge/Email-475569?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU-CORREO@ejemplo.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:94a3b8,50:334155,100:0f172a&section=footer" width="100%" />
+
+</div>
